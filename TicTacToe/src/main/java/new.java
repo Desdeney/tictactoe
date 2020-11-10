@@ -8,8 +8,13 @@
  *
  * @author sveno
  */
-public class Spieler {
-    private String symbol;
-    private int SpielerNr;
+public class new {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
 
 }
