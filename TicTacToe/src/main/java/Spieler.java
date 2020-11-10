@@ -10,6 +10,7 @@
  */
 public class Spieler {
     private String symbol;
-    private int SpielerNr
+    private int SpielerNr;
 
+    
 }
