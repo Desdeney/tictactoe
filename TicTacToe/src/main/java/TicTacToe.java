@@ -36,9 +36,16 @@ public class TicTacToe {
         }
         return "none";
     }
+    public boolean checkEmpty(String str){
+        if("".equals(str)){
+            return true;
+        }
+        return false;
+    }
     public void wechselSpieler(){
     } 
     public int setzeIcon(GUI gui){
+        return 1;
     }
 
 }

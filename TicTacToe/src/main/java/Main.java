@@ -17,6 +17,8 @@ public class Main {
         // TODO code application logic here
         GUI gui = new GUI();
         gui.setVisible(true);
+        
+        
     }
 
 }

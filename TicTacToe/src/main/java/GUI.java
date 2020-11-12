@@ -65,6 +65,12 @@ public class GUI extends javax.swing.JFrame {
             }
         });
 
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -148,8 +154,15 @@ public class GUI extends javax.swing.JFrame {
 
     private void jButton4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton4MouseClicked
         // TODO add your handling code here:
-        this.jButton4.setText();
+        this.jButton4.getText();
+        this.jButton4.setText("11");
     }//GEN-LAST:event_jButton4MouseClicked
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        
+        this.jButton4.setText("121");
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     public void setTextInButton(String str){
         this.jLabel1.setText(str);
