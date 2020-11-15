@@ -9,29 +9,19 @@
  * @author sveno
  */
 public class Spieler {
-    private String symbol;
-    private String spielerName;
-    private int SpielerNr;
+    private final String spielerName;
+    private final int spielerNr;
 
-    public Spieler(String symbol, String spielerName, int SpielerNr) {
-        this.symbol = symbol;
+    public Spieler(String spielerName, int SpielerNr) {
         this.spielerName = spielerName;
-        this.SpielerNr = SpielerNr;
-    }
-
-    
-    /**
-     * @return the symbol
-     */
-    public String getSymbol() {
-        return symbol;
+        this.spielerNr = SpielerNr;
     }
 
     /**
      * @return the SpielerNr
      */
     public int getSpielerNr() {
-        return SpielerNr;
+        return spielerNr;
     }
 
     /**
